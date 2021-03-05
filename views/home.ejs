@@ -1,0 +1,24 @@
+<%- include("./partials/header") %>
+<div class='post-cards'>
+ 
+  <% for (let post of posts) {%>
+      <div class="card mb-4">
+          <div class="card-body">
+              <% if(post.logoUrl){%>
+                <img class="rounded-circle" id='logoSize' src="<%= post.logoUrl %>">
+              <% } %>
+              <span class='card-title'><b><%= post.name %></b></span>
+              
+              <p class="card-text"><%= post.members%></p>
+
+              <div>
+                <a href="/cohorts/<%= post.id %>" 
+                button type="submit" class="btn btn-primary">Show cohort</button></a>
+              </div>
+          </div>
+
+      </div>
+  <% } %> 
+</div>
+
+<%- include("./partials/footer") %>
