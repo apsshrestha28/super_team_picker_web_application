@@ -1,8 +1,6 @@
 <%- include("../partials/header") %>
 
-<h3>Edit Cohort</h3>
-
-<form method="POST" action="/cohorts/<%=post.id%>">
+<form class="border-line padding-10" method="POST" action="/cohorts/<%=post.id%>">
     <input type="hidden" name="_method" value="PATCH">
     <div class="form-group">
         <input type="text" class='form-control' name="title" placeholder="Enter the name" value="<%=post.name %>"/>

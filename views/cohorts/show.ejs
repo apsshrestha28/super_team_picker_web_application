@@ -1,5 +1,5 @@
 <%- include('../partials/header')%>
-
+<div class='border-line'>
 <div class="btn-group" id="groupButton">
   <form method="POST"  style="padding-right:20px"  action="/cohorts/<%= post.id%>">
         <input type="hidden" name="id" value="<%=post.id%>"/>
@@ -26,7 +26,7 @@
 
               <hr>
 
-              <p class="card-title">Method</p>
+              <p class="card-title"><u>Method</u></p>
                
               <div class="form-check">
                   <%if(post.method==='teamCount') {%>
@@ -53,7 +53,7 @@
               <br>
 
               <div>
-                  <label for="text">Quantity</label>
+                  <label for="text"><u>Quantity</u></label>
                   <% if(post.quantity) {%>
                     <input name="quantity" type="text" class="form-control" id="quantity" value="<%=post.quantity%>"/>
                   <% }else {%>
@@ -87,5 +87,5 @@
       <% } %>
 <% }%>
 
-
+</div>
 <%- include('../partials/footer')%>

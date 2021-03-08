@@ -1,9 +1,7 @@
 #logoSize{
   height: 3em;
-  width: 3em;
-  
+  width: 3em;  
 }
-
 #groupButton{
   padding:4px;
   margin:2px;
@@ -12,10 +10,22 @@
   padding-right:2rem;
   color:white;
 }
-body {
-  background-color:lightsteelblue !important;
- 
- 
-
-
+.appName{
+  font-size:23px;
+  color:white;
 }
+
+.border-line{
+  border:2px solid rgb(20, 148, 233)
+}
+.bgImg{
+  background-image: url("../1.webp");
+  height:370px;
+  background-size: cover;
+  
+}
+.padding-10{
+padding:10px;
+}
+
+
