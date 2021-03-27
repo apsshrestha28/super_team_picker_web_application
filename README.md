@@ -4,4 +4,4 @@ Description      : Incorporated an off-the-shelf library to store and generate t
 
 Technologies     : Web application designed using Express.js, JavaScript, HTML,CSS, Bootstrap, Knex, Postgres
 
-Url              : https://www.loom.com/share/6e4750fbf1c942e88e407f5476a9be82
+Video link       : https://www.loom.com/share/6e4750fbf1c942e88e407f5476a9be82
