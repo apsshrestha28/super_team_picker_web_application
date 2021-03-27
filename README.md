@@ -1,4 +1,4 @@
-# super_team_picker_web_application
+Super Team Picker
 
 Description      : Incorporated an off-the-shelf library to store and generate team rosters based on options provided. 
 
